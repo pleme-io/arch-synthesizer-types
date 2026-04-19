@@ -1,0 +1,11 @@
+[package]
+name = "arch-synthesizer-types"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89.0"
+description = "Self-contained EKS access-entry types shared between arch-synthesizer and downstream typed-ops consumers (cordel). No external deps beyond std so crate2nix can prefetch it hermetically in any sandbox."
+license = "MIT"
+repository = "https://github.com/pleme-io/arch-synthesizer-types"
+
+[lints.clippy]
+pedantic = "warn"
