@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "cargo_lock_sha256": "46076f1c333254b852b71d8682e50a477ca59f4c99e170bbdeb6e0040d30953c",
+  "target_resolves": {
+    "base": {
+      "arch-synthesizer-types-0.1.0": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": []
+      }
+    },
+    "targets": {
+      "aarch64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-musl": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-musl": {
+        "overrides": {}
+      }
+    }
+  },
+  "per_crate": {
+    "arch-synthesizer-types-0.1.0": {
+      "edition": "2024",
+      "lib_target": {
+        "name": "arch_synthesizer_types",
+        "path": "src/lib.rs"
+      }
+    }
+  },
+  "git_nar_sha256": {},
+  "flake_metadata": {}
+}
